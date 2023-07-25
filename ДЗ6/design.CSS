@@ -1,0 +1,274 @@
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+span{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -50px;
+    color: gray;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin-left: 150px;
+    font-size: 16px;
+}
+.first {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 80px;
+  }
+  
+  .one {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .programme {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 187px;
+    margin-left: 210px;
+    font-size: 16px;
+ color: blue;
+}
+  h1{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 241px;
+    margin-left: 210px;
+    font-size: 56px;
+    margin-right: 80px;
+  }
+  
+  .education {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 431px;
+    margin-left: 210px;
+    font-size: 16px;
+    color: gray;
+  }
+  .button{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 570px;
+    margin-left: 210px;
+    background-color: blue;
+    width: 213px;
+    height: 55px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 50px;
+  }
+  .Group{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #FF8201;
+    height: 830px;
+    width: 702px;
+    position: relative;
+}
+.Group img {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 81.5%;
+    height: auto;
+  }
+  .meta{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 150px;
+    color: blue;
+ }
+ .goal{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 205px;
+    margin-left: 0px;
+   margin-right: 240px;
+   font-size: 42px;
+ }
+ .every{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 359px;
+    margin-right: 350px;
+    font-size: 16px;
+    color: gray;
+ }
+ .know{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 529px;
+    background-color: blue;
+    width: 213px;
+    height: 55px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .third{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr ;
+    grid-gap: 0px;
+ }
+ .teacher{
+    grid-column: 3;
+    grid-row: 1;
+    margin-right: 20px;
+    margin-left: 0px;
+ }
+
+.ludy{
+    grid-column: 1;
+    grid-row: 1;
+margin-top: 150px;
+margin-left: 150px;
+font-size: 16px;
+color: blue;
+}
+
+.made{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    margin-top: 210px;
+    margin-left: 150px;
+    font-size: 42px;
+    padding: 0px;
+    margin-right: 0px;
+}
+
+.vector{
+    grid-column: 4;
+    grid-row: 1;
+    margin-left: 295px;
+    margin-top: 380px;
+}
+
+.school{
+    grid-column: 4;
+    grid-row: 1;
+    margin-top: 94px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+.progress{
+    grid-column: 4;
+    grid-row: 1;
+    margin-left: 50px;
+    font-size: 16px;
+    color: gray;
+    margin-top: 339px;
+    width: 180px;
+}
+
+.background{
+    background-color: blue;
+    width: 360px;
+    height: 445px;
+}
+
+.participants{
+    grid-column: 1;
+    grid-row: 2;
+color: aliceblue;
+margin-left: 50px;
+}
+
+.number{
+    grid-column: 1;
+    grid-row: 2;
+ margin-left: 50px;
+ margin-top: 50px;
+ font-size: 42px;
+ font-weight: 100;
+ color: aliceblue;
+}
+
+.study{
+    grid-column: 1;
+    grid-row: 2;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 190px ;
+    margin-bottom: 0px;
+    width: 185px;
+}
+.Vec{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
+    margin-top: -43px;
+}
+.three{
+    grid-column: 2;
+    grid-row: 2;
+}
+.num{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 42px;
+    font-weight: 100;
+    color: gray;
+    margin-right: 0px;
+    width: 50px;
+}
+
+.partners{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 24px;
+    font-weight: 200;
+    margin-left: 50px; 
+    margin-top: 104px;
+    width: 83px;
+}
+.be{
+    grid-column: 3;
+    grid-row: 2; 
+    width: 150px; 
+    height: 70px;
+    margin-top: 339px;
+    font-size: 16px;
+    margin-left: 50px;
+    color: gray;
+}
+.people{
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 0px;
+    margin-left: -20px;
+}
+
+.Ve{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 295px;
+    margin-top: 380px;
+    margin-right: 0px;
+    width: 30px;
+    height: 30px;
+}
